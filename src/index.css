@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Martel', serif;
+    background-color: black;
+    color: white;
+}
+
+form input {
+    width: 70%;
+    margin-left: 10%;
+    margin-bottom: 1rem;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    background-color: black;
+    color: white;
+    padding-bottom: .5rem;
+    padding-top: 1rem;
+    font-size: 24px;
+}
+
+form input::placeholder {
+    color: white;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+form input:focus {
+    outline: none;
+}
+
+form h1 {
+    margin-left: 10%;
+    margin-top: 7%;
+    font-weight: 400;
+    padding-bottom: 2rem;
+    font-size: 64px;
+}
+
+form button {
+    display: block;
+    padding: 0.5rem 2rem;
+    margin-left: 10%;
+    margin-top: 2rem;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.error {
+    margin-left: 10%;
+    color: red;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.success {
+    margin-left: 10%;
+    color: green;
+    font-size: 24px;
+    font-weight: 300;
+}
